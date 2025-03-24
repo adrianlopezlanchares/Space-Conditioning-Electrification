@@ -1,0 +1,2000 @@
+Model: dbscan_-8
+ - Params: 100, 10
+ - Average distance to medoid: 2.441439160041592
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 774
+Model: dbscan_-8
+ - Params: 100, 20
+ - Average distance to medoid: 2.8626608035670795
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 361
+Model: dbscan_-8
+ - Params: 100, 30
+ - Average distance to medoid: 3.1268455378996918
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 236
+Model: dbscan_-8
+ - Params: 100, 40
+ - Average distance to medoid: 3.2808755242886076
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 180
+Model: dbscan_-8
+ - Params: 100, 50
+ - Average distance to medoid: 3.4928591724588043
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 144
+Model: dbscan_-8
+ - Params: 100, 60
+ - Average distance to medoid: 3.5363959768484996
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 124
+Model: dbscan_-8
+ - Params: 100, 70
+ - Average distance to medoid: 3.6894287497082265
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 102
+Model: dbscan_-8
+ - Params: 100, 80
+ - Average distance to medoid: 3.8632699427923956
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 90
+Model: dbscan_-8
+ - Params: 100, 90
+ - Average distance to medoid: 4.144463225155739
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 75
+Model: dbscan_-8
+ - Params: 100, 100
+ - Average distance to medoid: 4.238514180799147
+ - Max distance to medoid: 100.00286195904594
+ - Number of clusters: 71
+Model: dbscan_-8
+ - Params: 200, 10
+ - Average distance to medoid: 108.72201672474384
+ - Max distance to medoid: 1135.8163073314277
+ - Number of clusters: 617
+Model: dbscan_-8
+ - Params: 200, 20
+ - Average distance to medoid: 122.26554386984772
+ - Max distance to medoid: 1135.8163073314277
+ - Number of clusters: 278
+Model: dbscan_-8
+ - Params: 200, 30
+ - Average distance to medoid: 125.67881104845931
+ - Max distance to medoid: 1135.8163073314277
+ - Number of clusters: 189
+Model: dbscan_-8
+ - Params: 200, 40
+ - Average distance to medoid: 130.33176634981183
+ - Max distance to medoid: 1135.8163073314277
+ - Number of clusters: 142
+Model: dbscan_-8
+ - Params: 200, 50
+ - Average distance to medoid: 108.55943174943745
+ - Max distance to medoid: 1039.2324265052548
+ - Number of clusters: 114
+Model: dbscan_-8
+ - Params: 200, 60
+ - Average distance to medoid: 108.29080460837478
+ - Max distance to medoid: 1039.2324265052548
+ - Number of clusters: 93
+Model: dbscan_-8
+ - Params: 200, 70
+ - Average distance to medoid: 111.56095397734926
+ - Max distance to medoid: 1039.2324265052548
+ - Number of clusters: 74
+Model: dbscan_-8
+ - Params: 200, 80
+ - Average distance to medoid: 111.18405501566215
+ - Max distance to medoid: 1039.2324265052548
+ - Number of clusters: 67
+Model: dbscan_-8
+ - Params: 200, 90
+ - Average distance to medoid: 114.14912674771271
+ - Max distance to medoid: 1039.2324265052548
+ - Number of clusters: 57
+Model: dbscan_-8
+ - Params: 200, 100
+ - Average distance to medoid: 114.04270042752837
+ - Max distance to medoid: 1039.2324265052548
+ - Number of clusters: 51
+Model: dbscan_-8
+ - Params: 300, 10
+ - Average distance to medoid: 304.5400897260922
+ - Max distance to medoid: 2659.4933794615845
+ - Number of clusters: 418
+Model: dbscan_-8
+ - Params: 300, 20
+ - Average distance to medoid: 328.51352652128725
+ - Max distance to medoid: 2659.4933794615845
+ - Number of clusters: 170
+Model: dbscan_-8
+ - Params: 300, 30
+ - Average distance to medoid: 327.89363025764453
+ - Max distance to medoid: 1863.5721211157886
+ - Number of clusters: 114
+Model: dbscan_-8
+ - Params: 300, 40
+ - Average distance to medoid: 328.95726001590435
+ - Max distance to medoid: 1863.5721211157886
+ - Number of clusters: 87
+Model: dbscan_-8
+ - Params: 300, 50
+ - Average distance to medoid: 312.7558649600996
+ - Max distance to medoid: 1863.5721211157886
+ - Number of clusters: 74
+Model: dbscan_-8
+ - Params: 300, 60
+ - Average distance to medoid: 285.084171526776
+ - Max distance to medoid: 1863.5721211157886
+ - Number of clusters: 61
+Model: dbscan_-8
+ - Params: 300, 70
+ - Average distance to medoid: 282.44898799126304
+ - Max distance to medoid: 1791.181004951761
+ - Number of clusters: 56
+Model: dbscan_-8
+ - Params: 300, 80
+ - Average distance to medoid: 279.5432804360524
+ - Max distance to medoid: 1634.9013049722603
+ - Number of clusters: 52
+Model: dbscan_-8
+ - Params: 300, 90
+ - Average distance to medoid: 277.7321508425672
+ - Max distance to medoid: 1634.9013049722603
+ - Number of clusters: 44
+Model: dbscan_-8
+ - Params: 300, 100
+ - Average distance to medoid: 260.06946130335535
+ - Max distance to medoid: 1492.811154332657
+ - Number of clusters: 42
+Model: dbscan_-8
+ - Params: 400, 10
+ - Average distance to medoid: 401.16630468472164
+ - Max distance to medoid: 4156.92270901204
+ - Number of clusters: 353
+Model: dbscan_-8
+ - Params: 400, 20
+ - Average distance to medoid: 426.2792676270834
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 147
+Model: dbscan_-8
+ - Params: 400, 30
+ - Average distance to medoid: 439.0678512023443
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 88
+Model: dbscan_-8
+ - Params: 400, 40
+ - Average distance to medoid: 442.3774734577407
+ - Max distance to medoid: 3464.103383272503
+ - Number of clusters: 67
+Model: dbscan_-8
+ - Params: 400, 50
+ - Average distance to medoid: 439.1289570858825
+ - Max distance to medoid: 3464.103383272503
+ - Number of clusters: 56
+Model: dbscan_-8
+ - Params: 400, 60
+ - Average distance to medoid: 429.790673073094
+ - Max distance to medoid: 3117.6924577000855
+ - Number of clusters: 51
+Model: dbscan_-8
+ - Params: 400, 70
+ - Average distance to medoid: 428.6937189658233
+ - Max distance to medoid: 3117.6924577000855
+ - Number of clusters: 47
+Model: dbscan_-8
+ - Params: 400, 80
+ - Average distance to medoid: 412.71264424320145
+ - Max distance to medoid: 2089.8713547249745
+ - Number of clusters: 42
+Model: dbscan_-8
+ - Params: 400, 90
+ - Average distance to medoid: 408.46626800519766
+ - Max distance to medoid: 2089.8713547249745
+ - Number of clusters: 42
+Model: dbscan_-8
+ - Params: 400, 100
+ - Average distance to medoid: 405.2960737371546
+ - Max distance to medoid: 2089.8713547249745
+ - Number of clusters: 38
+Model: dbscan_-8
+ - Params: 500, 10
+ - Average distance to medoid: 445.7018406312207
+ - Max distance to medoid: 4156.92270901204
+ - Number of clusters: 321
+Model: dbscan_-8
+ - Params: 500, 20
+ - Average distance to medoid: 464.62546711127067
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 135
+Model: dbscan_-8
+ - Params: 500, 30
+ - Average distance to medoid: 472.0374074075935
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 84
+Model: dbscan_-8
+ - Params: 500, 40
+ - Average distance to medoid: 477.75340098161024
+ - Max distance to medoid: 3464.103383272503
+ - Number of clusters: 57
+Model: dbscan_-8
+ - Params: 500, 50
+ - Average distance to medoid: 478.8315040034793
+ - Max distance to medoid: 3464.103383272503
+ - Number of clusters: 52
+Model: dbscan_-8
+ - Params: 500, 60
+ - Average distance to medoid: 475.1419381293553
+ - Max distance to medoid: 3117.6924577000855
+ - Number of clusters: 45
+Model: dbscan_-8
+ - Params: 500, 70
+ - Average distance to medoid: 463.71305305861875
+ - Max distance to medoid: 3117.6924577000855
+ - Number of clusters: 43
+Model: dbscan_-8
+ - Params: 500, 80
+ - Average distance to medoid: 437.6190939497545
+ - Max distance to medoid: 2390.167711186811
+ - Number of clusters: 43
+Model: dbscan_-8
+ - Params: 500, 90
+ - Average distance to medoid: 432.6082904192013
+ - Max distance to medoid: 2300.9563662746846
+ - Number of clusters: 42
+Model: dbscan_-8
+ - Params: 500, 100
+ - Average distance to medoid: 421.47576653766333
+ - Max distance to medoid: 2232.577152754189
+ - Number of clusters: 42
+Model: dbscan_-8
+ - Params: 600, 10
+ - Average distance to medoid: 534.9167113591573
+ - Max distance to medoid: 4156.92270901204
+ - Number of clusters: 290
+Model: dbscan_-8
+ - Params: 600, 20
+ - Average distance to medoid: 546.950981385194
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 128
+Model: dbscan_-8
+ - Params: 600, 30
+ - Average distance to medoid: 547.8015896729155
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 78
+Model: dbscan_-8
+ - Params: 600, 40
+ - Average distance to medoid: 542.6988867482602
+ - Max distance to medoid: 3464.103383272503
+ - Number of clusters: 61
+Model: dbscan_-8
+ - Params: 600, 50
+ - Average distance to medoid: 542.4680803475097
+ - Max distance to medoid: 3464.103383272503
+ - Number of clusters: 50
+Model: dbscan_-8
+ - Params: 600, 60
+ - Average distance to medoid: 537.8093033609172
+ - Max distance to medoid: 3166.162868615574
+ - Number of clusters: 45
+Model: dbscan_-8
+ - Params: 600, 70
+ - Average distance to medoid: 534.2783591498716
+ - Max distance to medoid: 3166.162868615574
+ - Number of clusters: 43
+Model: dbscan_-8
+ - Params: 600, 80
+ - Average distance to medoid: 515.7165420748673
+ - Max distance to medoid: 3166.162868615574
+ - Number of clusters: 39
+Model: dbscan_-8
+ - Params: 600, 90
+ - Average distance to medoid: 516.129212595537
+ - Max distance to medoid: 3166.162868615574
+ - Number of clusters: 38
+Model: dbscan_-8
+ - Params: 600, 100
+ - Average distance to medoid: 515.2261115084348
+ - Max distance to medoid: 3166.162868615574
+ - Number of clusters: 36
+Model: dbscan_-8
+ - Params: 700, 10
+ - Average distance to medoid: 626.4833704760127
+ - Max distance to medoid: 4930.076110538254
+ - Number of clusters: 252
+Model: dbscan_-8
+ - Params: 700, 20
+ - Average distance to medoid: 623.3049752350837
+ - Max distance to medoid: 4503.332793742874
+ - Number of clusters: 119
+Model: dbscan_-8
+ - Params: 700, 30
+ - Average distance to medoid: 624.4562974386141
+ - Max distance to medoid: 4503.332793742874
+ - Number of clusters: 80
+Model: dbscan_-8
+ - Params: 700, 40
+ - Average distance to medoid: 625.6499028111837
+ - Max distance to medoid: 4503.33281279543
+ - Number of clusters: 57
+Model: dbscan_-8
+ - Params: 700, 50
+ - Average distance to medoid: 619.3757618768996
+ - Max distance to medoid: 4503.33281279543
+ - Number of clusters: 48
+Model: dbscan_-8
+ - Params: 700, 60
+ - Average distance to medoid: 586.8929833458833
+ - Max distance to medoid: 4156.922712476141
+ - Number of clusters: 45
+Model: dbscan_-8
+ - Params: 700, 70
+ - Average distance to medoid: 577.4447925298139
+ - Max distance to medoid: 4156.922712476141
+ - Number of clusters: 44
+Model: dbscan_-8
+ - Params: 700, 80
+ - Average distance to medoid: 576.1510847429894
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 40
+Model: dbscan_-8
+ - Params: 700, 90
+ - Average distance to medoid: 572.0420885961637
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 39
+Model: dbscan_-8
+ - Params: 700, 100
+ - Average distance to medoid: 564.0658851522602
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 37
+Model: dbscan_-8
+ - Params: 800, 10
+ - Average distance to medoid: 731.1652291658514
+ - Max distance to medoid: 5924.92844431053
+ - Number of clusters: 214
+Model: dbscan_-8
+ - Params: 800, 20
+ - Average distance to medoid: 709.8041548450508
+ - Max distance to medoid: 4839.4177051480065
+ - Number of clusters: 104
+Model: dbscan_-8
+ - Params: 800, 30
+ - Average distance to medoid: 703.1153023947652
+ - Max distance to medoid: 4503.332793742874
+ - Number of clusters: 72
+Model: dbscan_-8
+ - Params: 800, 40
+ - Average distance to medoid: 685.9562137527456
+ - Max distance to medoid: 4503.33281279543
+ - Number of clusters: 55
+Model: dbscan_-8
+ - Params: 800, 50
+ - Average distance to medoid: 678.1314125199253
+ - Max distance to medoid: 4503.33281279543
+ - Number of clusters: 48
+Model: dbscan_-8
+ - Params: 800, 60
+ - Average distance to medoid: 664.0035683001263
+ - Max distance to medoid: 4156.922712476141
+ - Number of clusters: 47
+Model: dbscan_-8
+ - Params: 800, 70
+ - Average distance to medoid: 661.3365254600401
+ - Max distance to medoid: 4156.922712476141
+ - Number of clusters: 42
+Model: dbscan_-8
+ - Params: 800, 80
+ - Average distance to medoid: 640.1134314068602
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 38
+Model: dbscan_-8
+ - Params: 800, 90
+ - Average distance to medoid: 619.5686644382286
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 39
+Model: dbscan_-8
+ - Params: 800, 100
+ - Average distance to medoid: 616.2916202298583
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 38
+Model: dbscan_-8
+ - Params: 900, 10
+ - Average distance to medoid: 899.7347131213252
+ - Max distance to medoid: 6823.108037895927
+ - Number of clusters: 180
+Model: dbscan_-8
+ - Params: 900, 20
+ - Average distance to medoid: 825.4824208650289
+ - Max distance to medoid: 5924.92844431053
+ - Number of clusters: 96
+Model: dbscan_-8
+ - Params: 900, 30
+ - Average distance to medoid: 810.7291408520296
+ - Max distance to medoid: 5924.92844431053
+ - Number of clusters: 73
+Model: dbscan_-8
+ - Params: 900, 40
+ - Average distance to medoid: 788.2233274613967
+ - Max distance to medoid: 4908.157473798085
+ - Number of clusters: 56
+Model: dbscan_-8
+ - Params: 900, 50
+ - Average distance to medoid: 742.0551406686351
+ - Max distance to medoid: 4908.157473798085
+ - Number of clusters: 49
+Model: dbscan_-8
+ - Params: 900, 60
+ - Average distance to medoid: 732.4717634933659
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 46
+Model: dbscan_-8
+ - Params: 900, 70
+ - Average distance to medoid: 731.9400333551334
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 41
+Model: dbscan_-8
+ - Params: 900, 80
+ - Average distance to medoid: 710.3154508747111
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 37
+Model: dbscan_-8
+ - Params: 900, 90
+ - Average distance to medoid: 701.6045782382001
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 36
+Model: dbscan_-8
+ - Params: 900, 100
+ - Average distance to medoid: 632.0905402173389
+ - Max distance to medoid: 3810.5126194253708
+ - Number of clusters: 37
+Model: dbscan_-8
+ - Params: 1000, 10
+ - Average distance to medoid: 1361.370468457814
+ - Max distance to medoid: 10629.022156233375
+ - Number of clusters: 159
+Model: dbscan_-8
+ - Params: 1000, 20
+ - Average distance to medoid: 1361.0737430293386
+ - Max distance to medoid: 10629.022156233375
+ - Number of clusters: 85
+Model: dbscan_-8
+ - Params: 1000, 30
+ - Average distance to medoid: 849.6416173875315
+ - Max distance to medoid: 5924.92844431053
+ - Number of clusters: 69
+Model: dbscan_-8
+ - Params: 1000, 40
+ - Average distance to medoid: 830.3404443676961
+ - Max distance to medoid: 4908.157473798085
+ - Number of clusters: 61
+Model: dbscan_-8
+ - Params: 1000, 50
+ - Average distance to medoid: 794.5034363348325
+ - Max distance to medoid: 4908.157473798085
+ - Number of clusters: 50
+Model: dbscan_-8
+ - Params: 1000, 60
+ - Average distance to medoid: 780.1009564254935
+ - Max distance to medoid: 5147.036996311567
+ - Number of clusters: 44
+Model: dbscan_-8
+ - Params: 1000, 70
+ - Average distance to medoid: 758.1400640957862
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 43
+Model: dbscan_-8
+ - Params: 1000, 80
+ - Average distance to medoid: 754.2738588382892
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 38
+Model: dbscan_-8
+ - Params: 1000, 90
+ - Average distance to medoid: 752.0476354265944
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 35
+Model: dbscan_-8
+ - Params: 1000, 100
+ - Average distance to medoid: 727.5106974614681
+ - Max distance to medoid: 4570.559026760293
+ - Number of clusters: 33
+Model: dbscan_8
+ - Params: 100, 10
+ - Average distance to medoid: 2.1212113572869713
+ - Max distance to medoid: 123.2540112937506
+ - Number of clusters: 806
+Model: dbscan_8
+ - Params: 100, 20
+ - Average distance to medoid: 2.3290505518895297
+ - Max distance to medoid: 100.02784512324556
+ - Number of clusters: 369
+Model: dbscan_8
+ - Params: 100, 30
+ - Average distance to medoid: 2.461163107311764
+ - Max distance to medoid: 100.02784512324556
+ - Number of clusters: 238
+Model: dbscan_8
+ - Params: 100, 40
+ - Average distance to medoid: 2.6544346932913996
+ - Max distance to medoid: 100.02784512324556
+ - Number of clusters: 168
+Model: dbscan_8
+ - Params: 100, 50
+ - Average distance to medoid: 2.785373472538127
+ - Max distance to medoid: 100.02784512324556
+ - Number of clusters: 137
+Model: dbscan_8
+ - Params: 100, 60
+ - Average distance to medoid: 2.924788336064844
+ - Max distance to medoid: 100.02784512324556
+ - Number of clusters: 118
+Model: dbscan_8
+ - Params: 100, 70
+ - Average distance to medoid: 3.1166603448103567
+ - Max distance to medoid: 100.02784512324556
+ - Number of clusters: 99
+Model: dbscan_8
+ - Params: 100, 80
+ - Average distance to medoid: 3.1749394331549485
+ - Max distance to medoid: 100.02784512324556
+ - Number of clusters: 94
+Model: dbscan_8
+ - Params: 100, 90
+ - Average distance to medoid: 3.3454369597800637
+ - Max distance to medoid: 100.00313545084474
+ - Number of clusters: 82
+Model: dbscan_8
+ - Params: 100, 100
+ - Average distance to medoid: 3.4605133201421996
+ - Max distance to medoid: 100.00313545084474
+ - Number of clusters: 76
+Model: dbscan_8
+ - Params: 200, 10
+ - Average distance to medoid: 88.15914496397903
+ - Max distance to medoid: 1460.3323470018734
+ - Number of clusters: 638
+Model: dbscan_8
+ - Params: 200, 20
+ - Average distance to medoid: 93.3892196798876
+ - Max distance to medoid: 1460.3323470018734
+ - Number of clusters: 299
+Model: dbscan_8
+ - Params: 200, 30
+ - Average distance to medoid: 97.44058665215108
+ - Max distance to medoid: 1460.3323470018734
+ - Number of clusters: 189
+Model: dbscan_8
+ - Params: 200, 40
+ - Average distance to medoid: 99.09870352438311
+ - Max distance to medoid: 1298.0725373029043
+ - Number of clusters: 133
+Model: dbscan_8
+ - Params: 200, 50
+ - Average distance to medoid: 100.32601498662675
+ - Max distance to medoid: 1298.0725373029043
+ - Number of clusters: 107
+Model: dbscan_8
+ - Params: 200, 60
+ - Average distance to medoid: 87.19118039453654
+ - Max distance to medoid: 811.2954158011742
+ - Number of clusters: 96
+Model: dbscan_8
+ - Params: 200, 70
+ - Average distance to medoid: 89.35586966791084
+ - Max distance to medoid: 811.2954158011742
+ - Number of clusters: 81
+Model: dbscan_8
+ - Params: 200, 80
+ - Average distance to medoid: 87.34437499071839
+ - Max distance to medoid: 700.00095492792
+ - Number of clusters: 74
+Model: dbscan_8
+ - Params: 200, 90
+ - Average distance to medoid: 88.34220175048435
+ - Max distance to medoid: 700.00095492792
+ - Number of clusters: 66
+Model: dbscan_8
+ - Params: 200, 100
+ - Average distance to medoid: 89.2470105731544
+ - Max distance to medoid: 700.00095492792
+ - Number of clusters: 57
+Model: dbscan_8
+ - Params: 300, 10
+ - Average distance to medoid: 350.4753377213995
+ - Max distance to medoid: 3366.0084638782478
+ - Number of clusters: 461
+Model: dbscan_8
+ - Params: 300, 20
+ - Average distance to medoid: 370.69966036063767
+ - Max distance to medoid: 3087.0719021266736
+ - Number of clusters: 229
+Model: dbscan_8
+ - Params: 300, 30
+ - Average distance to medoid: 385.80876034234376
+ - Max distance to medoid: 3087.0719021266736
+ - Number of clusters: 144
+Model: dbscan_8
+ - Params: 300, 40
+ - Average distance to medoid: 391.7374544294967
+ - Max distance to medoid: 2632.4902028497654
+ - Number of clusters: 100
+Model: dbscan_8
+ - Params: 300, 50
+ - Average distance to medoid: 377.5637145724459
+ - Max distance to medoid: 2271.5634248904435
+ - Number of clusters: 75
+Model: dbscan_8
+ - Params: 300, 60
+ - Average distance to medoid: 364.50019912372403
+ - Max distance to medoid: 2271.5634248904435
+ - Number of clusters: 66
+Model: dbscan_8
+ - Params: 300, 70
+ - Average distance to medoid: 367.08388005053007
+ - Max distance to medoid: 2002.5000757303355
+ - Number of clusters: 53
+Model: dbscan_8
+ - Params: 300, 80
+ - Average distance to medoid: 374.1528423887776
+ - Max distance to medoid: 2002.5000757303355
+ - Number of clusters: 44
+Model: dbscan_8
+ - Params: 300, 90
+ - Average distance to medoid: 373.5732849621609
+ - Max distance to medoid: 2002.5000757303355
+ - Number of clusters: 41
+Model: dbscan_8
+ - Params: 300, 100
+ - Average distance to medoid: 366.8178083494304
+ - Max distance to medoid: 2002.5000757303355
+ - Number of clusters: 38
+Model: dbscan_8
+ - Params: 400, 10
+ - Average distance to medoid: 446.5851942693338
+ - Max distance to medoid: 5115.662363164715
+ - Number of clusters: 393
+Model: dbscan_8
+ - Params: 400, 20
+ - Average distance to medoid: 443.13869722680545
+ - Max distance to medoid: 3394.1131785637317
+ - Number of clusters: 203
+Model: dbscan_8
+ - Params: 400, 30
+ - Average distance to medoid: 449.6270926724432
+ - Max distance to medoid: 3366.0084638782478
+ - Number of clusters: 127
+Model: dbscan_8
+ - Params: 400, 40
+ - Average distance to medoid: 452.795891388939
+ - Max distance to medoid: 3366.0084638782478
+ - Number of clusters: 95
+Model: dbscan_8
+ - Params: 400, 50
+ - Average distance to medoid: 459.1503211900781
+ - Max distance to medoid: 3087.0719021266736
+ - Number of clusters: 77
+Model: dbscan_8
+ - Params: 400, 60
+ - Average distance to medoid: 444.1106991325457
+ - Max distance to medoid: 2835.490991098367
+ - Number of clusters: 63
+Model: dbscan_8
+ - Params: 400, 70
+ - Average distance to medoid: 447.9095358015128
+ - Max distance to medoid: 2835.490991098367
+ - Number of clusters: 51
+Model: dbscan_8
+ - Params: 400, 80
+ - Average distance to medoid: 448.2578388034905
+ - Max distance to medoid: 2835.490991098367
+ - Number of clusters: 41
+Model: dbscan_8
+ - Params: 400, 90
+ - Average distance to medoid: 447.9214901929183
+ - Max distance to medoid: 2835.490991098367
+ - Number of clusters: 38
+Model: dbscan_8
+ - Params: 400, 100
+ - Average distance to medoid: 426.38261613573195
+ - Max distance to medoid: 2271.5634248904435
+ - Number of clusters: 38
+Model: dbscan_8
+ - Params: 500, 10
+ - Average distance to medoid: 597.2345893595132
+ - Max distance to medoid: 5878.653872877701
+ - Number of clusters: 355
+Model: dbscan_8
+ - Params: 500, 20
+ - Average distance to medoid: 622.965740825229
+ - Max distance to medoid: 5878.653872877701
+ - Number of clusters: 190
+Model: dbscan_8
+ - Params: 500, 30
+ - Average distance to medoid: 640.3167411800339
+ - Max distance to medoid: 5521.775201454691
+ - Number of clusters: 115
+Model: dbscan_8
+ - Params: 500, 40
+ - Average distance to medoid: 591.2388128183521
+ - Max distance to medoid: 5668.333329912771
+ - Number of clusters: 90
+Model: dbscan_8
+ - Params: 500, 50
+ - Average distance to medoid: 577.5208027742697
+ - Max distance to medoid: 5419.409813771238
+ - Number of clusters: 80
+Model: dbscan_8
+ - Params: 500, 60
+ - Average distance to medoid: 584.0144110036774
+ - Max distance to medoid: 5299.0572809227115
+ - Number of clusters: 63
+Model: dbscan_8
+ - Params: 500, 70
+ - Average distance to medoid: 594.4151818709664
+ - Max distance to medoid: 5299.0572809227115
+ - Number of clusters: 50
+Model: dbscan_8
+ - Params: 500, 80
+ - Average distance to medoid: 603.0340582581129
+ - Max distance to medoid: 5299.0572809227115
+ - Number of clusters: 41
+Model: dbscan_8
+ - Params: 500, 90
+ - Average distance to medoid: 600.8184847304684
+ - Max distance to medoid: 5299.0572809227115
+ - Number of clusters: 38
+Model: dbscan_8
+ - Params: 500, 100
+ - Average distance to medoid: 598.6551068726391
+ - Max distance to medoid: 5299.0572809227115
+ - Number of clusters: 37
+Model: dbscan_8
+ - Params: 600, 10
+ - Average distance to medoid: 701.0710640770618
+ - Max distance to medoid: 8631.591859535529
+ - Number of clusters: 293
+Model: dbscan_8
+ - Params: 600, 20
+ - Average distance to medoid: 716.0806815025668
+ - Max distance to medoid: 8338.516417025274
+ - Number of clusters: 168
+Model: dbscan_8
+ - Params: 600, 30
+ - Average distance to medoid: 727.8205767168735
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 107
+Model: dbscan_8
+ - Params: 600, 40
+ - Average distance to medoid: 714.0515759536581
+ - Max distance to medoid: 5878.653872877701
+ - Number of clusters: 83
+Model: dbscan_8
+ - Params: 600, 50
+ - Average distance to medoid: 679.8226945841636
+ - Max distance to medoid: 5805.170346992412
+ - Number of clusters: 71
+Model: dbscan_8
+ - Params: 600, 60
+ - Average distance to medoid: 647.4628294412305
+ - Max distance to medoid: 5805.170346992412
+ - Number of clusters: 61
+Model: dbscan_8
+ - Params: 600, 70
+ - Average distance to medoid: 643.7991171511549
+ - Max distance to medoid: 5668.333329912771
+ - Number of clusters: 54
+Model: dbscan_8
+ - Params: 600, 80
+ - Average distance to medoid: 645.7292030990185
+ - Max distance to medoid: 5668.333329912771
+ - Number of clusters: 45
+Model: dbscan_8
+ - Params: 600, 90
+ - Average distance to medoid: 645.7501153420966
+ - Max distance to medoid: 5419.409813771238
+ - Number of clusters: 40
+Model: dbscan_8
+ - Params: 600, 100
+ - Average distance to medoid: 630.6389432917649
+ - Max distance to medoid: 5419.409813771238
+ - Number of clusters: 38
+Model: dbscan_8
+ - Params: 700, 10
+ - Average distance to medoid: 791.9030728896549
+ - Max distance to medoid: 8631.591859535529
+ - Number of clusters: 265
+Model: dbscan_8
+ - Params: 700, 20
+ - Average distance to medoid: 802.1054536105058
+ - Max distance to medoid: 8338.516417025274
+ - Number of clusters: 151
+Model: dbscan_8
+ - Params: 700, 30
+ - Average distance to medoid: 806.6329899364617
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 103
+Model: dbscan_8
+ - Params: 700, 40
+ - Average distance to medoid: 809.8652407139776
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 77
+Model: dbscan_8
+ - Params: 700, 50
+ - Average distance to medoid: 761.1533696366979
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 69
+Model: dbscan_8
+ - Params: 700, 60
+ - Average distance to medoid: 743.1760479293349
+ - Max distance to medoid: 5878.653872877701
+ - Number of clusters: 59
+Model: dbscan_8
+ - Params: 700, 70
+ - Average distance to medoid: 741.3482506682394
+ - Max distance to medoid: 5521.775201454691
+ - Number of clusters: 44
+Model: dbscan_8
+ - Params: 700, 80
+ - Average distance to medoid: 685.602766173412
+ - Max distance to medoid: 5806.892657411536
+ - Number of clusters: 44
+Model: dbscan_8
+ - Params: 700, 90
+ - Average distance to medoid: 673.2174449015974
+ - Max distance to medoid: 5668.333329912771
+ - Number of clusters: 40
+Model: dbscan_8
+ - Params: 700, 100
+ - Average distance to medoid: 668.9685824411973
+ - Max distance to medoid: 5668.333329912771
+ - Number of clusters: 36
+Model: dbscan_8
+ - Params: 800, 10
+ - Average distance to medoid: 1010.9775083660952
+ - Max distance to medoid: 8631.591859535529
+ - Number of clusters: 208
+Model: dbscan_8
+ - Params: 800, 20
+ - Average distance to medoid: 1014.2638158175582
+ - Max distance to medoid: 8338.516417025274
+ - Number of clusters: 122
+Model: dbscan_8
+ - Params: 800, 30
+ - Average distance to medoid: 1004.4056659367583
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 81
+Model: dbscan_8
+ - Params: 800, 40
+ - Average distance to medoid: 996.2948919738069
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 61
+Model: dbscan_8
+ - Params: 800, 50
+ - Average distance to medoid: 977.1641002749719
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 54
+Model: dbscan_8
+ - Params: 800, 60
+ - Average distance to medoid: 927.88133246339
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 48
+Model: dbscan_8
+ - Params: 800, 70
+ - Average distance to medoid: 933.5281400215204
+ - Max distance to medoid: 6879.269809085845
+ - Number of clusters: 36
+Model: dbscan_8
+ - Params: 800, 80
+ - Average distance to medoid: 833.2272417429602
+ - Max distance to medoid: 5722.795117615167
+ - Number of clusters: 36
+Model: dbscan_8
+ - Params: 800, 90
+ - Average distance to medoid: 802.862153227227
+ - Max distance to medoid: 5806.892657411536
+ - Number of clusters: 34
+Model: dbscan_8
+ - Params: 800, 100
+ - Average distance to medoid: 798.3426403080964
+ - Max distance to medoid: 5806.892657411536
+ - Number of clusters: 29
+Model: dbscan_8
+ - Params: 900, 10
+ - Average distance to medoid: 1299.4411499250211
+ - Max distance to medoid: 9382.964191037925
+ - Number of clusters: 186
+Model: dbscan_8
+ - Params: 900, 20
+ - Average distance to medoid: 1291.9540590490678
+ - Max distance to medoid: 9000.00033016666
+ - Number of clusters: 110
+Model: dbscan_8
+ - Params: 900, 30
+ - Average distance to medoid: 1288.9088925515161
+ - Max distance to medoid: 8631.591859535529
+ - Number of clusters: 73
+Model: dbscan_8
+ - Params: 900, 40
+ - Average distance to medoid: 1282.230394972207
+ - Max distance to medoid: 8631.591859535529
+ - Number of clusters: 58
+Model: dbscan_8
+ - Params: 900, 50
+ - Average distance to medoid: 1288.2417676494508
+ - Max distance to medoid: 8631.591859535529
+ - Number of clusters: 49
+Model: dbscan_8
+ - Params: 900, 60
+ - Average distance to medoid: 1231.2041408301739
+ - Max distance to medoid: 8338.516417025274
+ - Number of clusters: 43
+Model: dbscan_8
+ - Params: 900, 70
+ - Average distance to medoid: 1237.8904675160018
+ - Max distance to medoid: 7753.8074588552945
+ - Number of clusters: 35
+Model: dbscan_8
+ - Params: 900, 80
+ - Average distance to medoid: 1241.9043331847251
+ - Max distance to medoid: 7461.863580842255
+ - Number of clusters: 29
+Model: dbscan_8
+ - Params: 900, 90
+ - Average distance to medoid: 1057.3869244002158
+ - Max distance to medoid: 7461.863580842255
+ - Number of clusters: 28
+Model: dbscan_8
+ - Params: 900, 100
+ - Average distance to medoid: 993.7915883067442
+ - Max distance to medoid: 7461.863580842255
+ - Number of clusters: 26
+Model: dbscan_8
+ - Params: 1000, 10
+ - Average distance to medoid: 1551.6750525206846
+ - Max distance to medoid: 9743.716088854395
+ - Number of clusters: 169
+Model: dbscan_8
+ - Params: 1000, 20
+ - Average distance to medoid: 1476.1505870032024
+ - Max distance to medoid: 9219.54463605443
+ - Number of clusters: 95
+Model: dbscan_8
+ - Params: 1000, 30
+ - Average distance to medoid: 1459.0986255278533
+ - Max distance to medoid: 8939.575353544486
+ - Number of clusters: 62
+Model: dbscan_8
+ - Params: 1000, 40
+ - Average distance to medoid: 1410.782337162385
+ - Max distance to medoid: 8939.575353544486
+ - Number of clusters: 56
+Model: dbscan_8
+ - Params: 1000, 50
+ - Average distance to medoid: 1393.8319533191277
+ - Max distance to medoid: 8939.575353544486
+ - Number of clusters: 47
+Model: dbscan_8
+ - Params: 1000, 60
+ - Average distance to medoid: 1396.2232993341318
+ - Max distance to medoid: 8646.414178542454
+ - Number of clusters: 40
+Model: dbscan_8
+ - Params: 1000, 70
+ - Average distance to medoid: 1309.2449373687175
+ - Max distance to medoid: 8338.516417025274
+ - Number of clusters: 33
+Model: dbscan_8
+ - Params: 1000, 80
+ - Average distance to medoid: 1314.1692820089122
+ - Max distance to medoid: 7461.863580842255
+ - Number of clusters: 29
+Model: dbscan_8
+ - Params: 1000, 90
+ - Average distance to medoid: 1317.2542132720196
+ - Max distance to medoid: 7461.863580842255
+ - Number of clusters: 24
+Model: dbscan_8
+ - Params: 1000, 100
+ - Average distance to medoid: 1270.4446135046512
+ - Max distance to medoid: 7461.863580842255
+ - Number of clusters: 23
+Model: dbscan_28
+ - Params: 1000, 10
+ - Average distance to medoid: 446.4806288745575
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 8
+Model: dbscan_28
+ - Params: 1000, 20
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1000, 30
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1000, 40
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1000, 50
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1000, 60
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1000, 70
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1000, 80
+ - Average distance to medoid: 531.6751853389139
+ - Max distance to medoid: 1577.9737442365763
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1000, 90
+ - Average distance to medoid: 522.8943185021205
+ - Max distance to medoid: 1577.9737442365763
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1000, 100
+ - Average distance to medoid: 496.8825798402697
+ - Max distance to medoid: 900.0016032207943
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1111, 10
+ - Average distance to medoid: 446.4806288745575
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 8
+Model: dbscan_28
+ - Params: 1111, 20
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1111, 30
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1111, 40
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1111, 50
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1111, 60
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1111, 70
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1111, 80
+ - Average distance to medoid: 531.6751853389139
+ - Max distance to medoid: 1577.9737442365763
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1111, 90
+ - Average distance to medoid: 522.8943185021205
+ - Max distance to medoid: 1577.9737442365763
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1111, 100
+ - Average distance to medoid: 496.8825798402697
+ - Max distance to medoid: 900.0016032207943
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1222, 10
+ - Average distance to medoid: 452.9228071974223
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 9
+Model: dbscan_28
+ - Params: 1222, 20
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1222, 30
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1222, 40
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1222, 50
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1222, 60
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1222, 70
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1222, 80
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1222, 90
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1222, 100
+ - Average distance to medoid: 536.2824412091544
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1333, 10
+ - Average distance to medoid: 452.9228071974223
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 9
+Model: dbscan_28
+ - Params: 1333, 20
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1333, 30
+ - Average distance to medoid: 449.20489408607204
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1333, 40
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1333, 50
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1333, 60
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1333, 70
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1333, 80
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1333, 90
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1333, 100
+ - Average distance to medoid: 536.2824412091544
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1444, 10
+ - Average distance to medoid: 465.3944985226558
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 9
+Model: dbscan_28
+ - Params: 1444, 20
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1444, 30
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1444, 40
+ - Average distance to medoid: 467.4205639310906
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1444, 50
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1444, 60
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1444, 70
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1444, 80
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1444, 90
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1444, 100
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1555, 10
+ - Average distance to medoid: 465.3944985226558
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 9
+Model: dbscan_28
+ - Params: 1555, 20
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1555, 30
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1555, 40
+ - Average distance to medoid: 467.4205639310906
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1555, 50
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1555, 60
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1555, 70
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1555, 80
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1555, 90
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1555, 100
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1666, 10
+ - Average distance to medoid: 465.3944985226558
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 9
+Model: dbscan_28
+ - Params: 1666, 20
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1666, 30
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1666, 40
+ - Average distance to medoid: 467.4205639310906
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1666, 50
+ - Average distance to medoid: 459.0836582535985
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1666, 60
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1666, 70
+ - Average distance to medoid: 476.39514406611374
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1666, 80
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1666, 90
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1666, 100
+ - Average distance to medoid: 548.683528149957
+ - Max distance to medoid: 1743.5599381437967
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1777, 10
+ - Average distance to medoid: 465.3944985226558
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 9
+Model: dbscan_28
+ - Params: 1777, 20
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1777, 30
+ - Average distance to medoid: 457.1332011051244
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1777, 40
+ - Average distance to medoid: 467.4205639310906
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1777, 50
+ - Average distance to medoid: 467.4205639310906
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1777, 60
+ - Average distance to medoid: 485.4283057735832
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1777, 70
+ - Average distance to medoid: 485.4283057735832
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1777, 80
+ - Average distance to medoid: 560.3859001225835
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1777, 90
+ - Average distance to medoid: 560.3859001225835
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1777, 100
+ - Average distance to medoid: 560.3859001225835
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1888, 10
+ - Average distance to medoid: 489.1176282028548
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 11
+Model: dbscan_28
+ - Params: 1888, 20
+ - Average distance to medoid: 459.57815314604176
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1888, 30
+ - Average distance to medoid: 459.57815314604176
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 1888, 40
+ - Average distance to medoid: 469.9894887162617
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1888, 50
+ - Average distance to medoid: 469.9894887162617
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 1888, 60
+ - Average distance to medoid: 488.2079010588533
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1888, 70
+ - Average distance to medoid: 488.2079010588533
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 1888, 80
+ - Average distance to medoid: 563.9655003681279
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1888, 90
+ - Average distance to medoid: 563.9655003681279
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 1888, 100
+ - Average distance to medoid: 563.9655003681279
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 2000, 10
+ - Average distance to medoid: 499.60584441581886
+ - Max distance to medoid: 3367.691858142606
+ - Number of clusters: 11
+Model: dbscan_28
+ - Params: 2000, 20
+ - Average distance to medoid: 459.57815314604176
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 2000, 30
+ - Average distance to medoid: 459.57815314604176
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 7
+Model: dbscan_28
+ - Params: 2000, 40
+ - Average distance to medoid: 469.9894887162617
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 2000, 50
+ - Average distance to medoid: 469.9894887162617
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 6
+Model: dbscan_28
+ - Params: 2000, 60
+ - Average distance to medoid: 488.2079010588533
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 2000, 70
+ - Average distance to medoid: 488.2079010588533
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 5
+Model: dbscan_28
+ - Params: 2000, 80
+ - Average distance to medoid: 563.9655003681279
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 2000, 90
+ - Average distance to medoid: 563.9655003681279
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_28
+ - Params: 2000, 100
+ - Average distance to medoid: 563.9655003681279
+ - Max distance to medoid: 2473.5906884325063
+ - Number of clusters: 3
+Model: dbscan_35
+ - Params: 100, 10
+ - Average distance to medoid: 2.3066790663547683
+ - Max distance to medoid: 141.43203774251432
+ - Number of clusters: 826
+Model: dbscan_35
+ - Params: 100, 20
+ - Average distance to medoid: 2.5072307025625666
+ - Max distance to medoid: 141.43203774251432
+ - Number of clusters: 436
+Model: dbscan_35
+ - Params: 100, 30
+ - Average distance to medoid: 2.5410407051934962
+ - Max distance to medoid: 100.00156348777753
+ - Number of clusters: 277
+Model: dbscan_35
+ - Params: 100, 40
+ - Average distance to medoid: 2.7170584482541087
+ - Max distance to medoid: 100.00156348777753
+ - Number of clusters: 204
+Model: dbscan_35
+ - Params: 100, 50
+ - Average distance to medoid: 2.8935999136696524
+ - Max distance to medoid: 100.00156348777753
+ - Number of clusters: 160
+Model: dbscan_35
+ - Params: 100, 60
+ - Average distance to medoid: 2.9555047877762783
+ - Max distance to medoid: 100.0
+ - Number of clusters: 138
+Model: dbscan_35
+ - Params: 100, 70
+ - Average distance to medoid: 3.0855552594444373
+ - Max distance to medoid: 100.0
+ - Number of clusters: 108
+Model: dbscan_35
+ - Params: 100, 80
+ - Average distance to medoid: 2.732340511319226
+ - Max distance to medoid: 100.0
+ - Number of clusters: 89
+Model: dbscan_35
+ - Params: 100, 90
+ - Average distance to medoid: 2.870346589798081
+ - Max distance to medoid: 100.0
+ - Number of clusters: 80
+Model: dbscan_35
+ - Params: 100, 100
+ - Average distance to medoid: 2.907278249519613
+ - Max distance to medoid: 100.0
+ - Number of clusters: 69
+Model: dbscan_35
+ - Params: 200, 10
+ - Average distance to medoid: 76.8502556089469
+ - Max distance to medoid: 1522.1733028469525
+ - Number of clusters: 645
+Model: dbscan_35
+ - Params: 200, 20
+ - Average distance to medoid: 81.44183303017068
+ - Max distance to medoid: 1522.1733028469525
+ - Number of clusters: 351
+Model: dbscan_35
+ - Params: 200, 30
+ - Average distance to medoid: 85.54248318670325
+ - Max distance to medoid: 1353.0414150350314
+ - Number of clusters: 238
+Model: dbscan_35
+ - Params: 200, 40
+ - Average distance to medoid: 88.47280308491554
+ - Max distance to medoid: 1353.0414150350314
+ - Number of clusters: 175
+Model: dbscan_35
+ - Params: 200, 50
+ - Average distance to medoid: 89.5390764629486
+ - Max distance to medoid: 1353.0414150350314
+ - Number of clusters: 135
+Model: dbscan_35
+ - Params: 200, 60
+ - Average distance to medoid: 89.03882813885767
+ - Max distance to medoid: 1353.0414150350314
+ - Number of clusters: 120
+Model: dbscan_35
+ - Params: 200, 70
+ - Average distance to medoid: 91.90409481176721
+ - Max distance to medoid: 1183.911869524079
+ - Number of clusters: 95
+Model: dbscan_35
+ - Params: 200, 80
+ - Average distance to medoid: 95.19056954040171
+ - Max distance to medoid: 1183.911869524079
+ - Number of clusters: 78
+Model: dbscan_35
+ - Params: 200, 90
+ - Average distance to medoid: 95.68752207041659
+ - Max distance to medoid: 1014.7840119453991
+ - Number of clusters: 72
+Model: dbscan_35
+ - Params: 200, 100
+ - Average distance to medoid: 99.41896038933162
+ - Max distance to medoid: 1014.7840119453991
+ - Number of clusters: 60
+Model: dbscan_35
+ - Params: 300, 10
+ - Average distance to medoid: 393.89343330920985
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 442
+Model: dbscan_35
+ - Params: 300, 20
+ - Average distance to medoid: 413.3816172685292
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 248
+Model: dbscan_35
+ - Params: 300, 30
+ - Average distance to medoid: 424.82781215567786
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 163
+Model: dbscan_35
+ - Params: 300, 40
+ - Average distance to medoid: 428.6182559733072
+ - Max distance to medoid: 2918.6305401163745
+ - Number of clusters: 112
+Model: dbscan_35
+ - Params: 300, 50
+ - Average distance to medoid: 425.3083883146011
+ - Max distance to medoid: 2918.6305401163745
+ - Number of clusters: 80
+Model: dbscan_35
+ - Params: 300, 60
+ - Average distance to medoid: 427.7071308648487
+ - Max distance to medoid: 2918.6305401163745
+ - Number of clusters: 74
+Model: dbscan_35
+ - Params: 300, 70
+ - Average distance to medoid: 415.4754431277804
+ - Max distance to medoid: 2918.6305401163745
+ - Number of clusters: 57
+Model: dbscan_35
+ - Params: 300, 80
+ - Average distance to medoid: 421.31957557741487
+ - Max distance to medoid: 2624.075693763425
+ - Number of clusters: 49
+Model: dbscan_35
+ - Params: 300, 90
+ - Average distance to medoid: 424.6754694800761
+ - Max distance to medoid: 2624.075693763425
+ - Number of clusters: 44
+Model: dbscan_35
+ - Params: 300, 100
+ - Average distance to medoid: 432.2129102454541
+ - Max distance to medoid: 2624.075693763425
+ - Number of clusters: 38
+Model: dbscan_35
+ - Params: 400, 10
+ - Average distance to medoid: 542.3387231744483
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 343
+Model: dbscan_35
+ - Params: 400, 20
+ - Average distance to medoid: 566.905249473101
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 192
+Model: dbscan_35
+ - Params: 400, 30
+ - Average distance to medoid: 570.2431505101013
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 132
+Model: dbscan_35
+ - Params: 400, 40
+ - Average distance to medoid: 553.6488476202379
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 97
+Model: dbscan_35
+ - Params: 400, 50
+ - Average distance to medoid: 568.4753816579889
+ - Max distance to medoid: 3538.3614185382476
+ - Number of clusters: 69
+Model: dbscan_35
+ - Params: 400, 60
+ - Average distance to medoid: 537.4340331046126
+ - Max distance to medoid: 2961.4185850703375
+ - Number of clusters: 61
+Model: dbscan_35
+ - Params: 400, 70
+ - Average distance to medoid: 529.0109646067106
+ - Max distance to medoid: 2918.6305401163745
+ - Number of clusters: 52
+Model: dbscan_35
+ - Params: 400, 80
+ - Average distance to medoid: 523.9430996267698
+ - Max distance to medoid: 2624.075693763425
+ - Number of clusters: 43
+Model: dbscan_35
+ - Params: 400, 90
+ - Average distance to medoid: 523.1054699619891
+ - Max distance to medoid: 2624.075693763425
+ - Number of clusters: 40
+Model: dbscan_35
+ - Params: 400, 100
+ - Average distance to medoid: 498.46630272116516
+ - Max distance to medoid: 2624.075693763425
+ - Number of clusters: 39
+Model: dbscan_35
+ - Params: 500, 10
+ - Average distance to medoid: 654.6824734053031
+ - Max distance to medoid: 5060.632522689234
+ - Number of clusters: 316
+Model: dbscan_35
+ - Params: 500, 20
+ - Average distance to medoid: 673.693187388217
+ - Max distance to medoid: 4662.617355155793
+ - Number of clusters: 188
+Model: dbscan_35
+ - Params: 500, 30
+ - Average distance to medoid: 701.1930026450406
+ - Max distance to medoid: 4662.617355155793
+ - Number of clusters: 120
+Model: dbscan_35
+ - Params: 500, 40
+ - Average distance to medoid: 720.5822982920229
+ - Max distance to medoid: 4662.617355155793
+ - Number of clusters: 85
+Model: dbscan_35
+ - Params: 500, 50
+ - Average distance to medoid: 699.4855656051169
+ - Max distance to medoid: 4338.202459602364
+ - Number of clusters: 68
+Model: dbscan_35
+ - Params: 500, 60
+ - Average distance to medoid: 629.8589597744434
+ - Max distance to medoid: 3304.5423961874058
+ - Number of clusters: 63
+Model: dbscan_35
+ - Params: 500, 70
+ - Average distance to medoid: 610.7077357165922
+ - Max distance to medoid: 2961.4185850703375
+ - Number of clusters: 51
+Model: dbscan_35
+ - Params: 500, 80
+ - Average distance to medoid: 576.2184878372152
+ - Max distance to medoid: 2961.4185850703375
+ - Number of clusters: 46
+Model: dbscan_35
+ - Params: 500, 90
+ - Average distance to medoid: 569.5271256294055
+ - Max distance to medoid: 2736.7866217884066
+ - Number of clusters: 44
+Model: dbscan_35
+ - Params: 500, 100
+ - Average distance to medoid: 570.5790707949789
+ - Max distance to medoid: 2736.7866217884066
+ - Number of clusters: 40
+Model: dbscan_35
+ - Params: 600, 10
+ - Average distance to medoid: 747.1417592860893
+ - Max distance to medoid: 5060.632522689234
+ - Number of clusters: 258
+Model: dbscan_35
+ - Params: 600, 20
+ - Average distance to medoid: 760.2896331785608
+ - Max distance to medoid: 5060.632522689234
+ - Number of clusters: 155
+Model: dbscan_35
+ - Params: 600, 30
+ - Average distance to medoid: 764.7454282551726
+ - Max distance to medoid: 5025.932952706393
+ - Number of clusters: 115
+Model: dbscan_35
+ - Params: 600, 40
+ - Average distance to medoid: 776.1160421780711
+ - Max distance to medoid: 4892.852082385079
+ - Number of clusters: 85
+Model: dbscan_35
+ - Params: 600, 50
+ - Average distance to medoid: 767.6595337050966
+ - Max distance to medoid: 4662.617355155793
+ - Number of clusters: 68
+Model: dbscan_35
+ - Params: 600, 60
+ - Average distance to medoid: 776.4284542985486
+ - Max distance to medoid: 4614.108840350431
+ - Number of clusters: 55
+Model: dbscan_35
+ - Params: 600, 70
+ - Average distance to medoid: 753.0463312251778
+ - Max distance to medoid: 4614.108840350431
+ - Number of clusters: 45
+Model: dbscan_35
+ - Params: 600, 80
+ - Average distance to medoid: 752.1616277681679
+ - Max distance to medoid: 4614.108840350431
+ - Number of clusters: 38
+Model: dbscan_35
+ - Params: 600, 90
+ - Average distance to medoid: 748.0301210586663
+ - Max distance to medoid: 4338.202459602364
+ - Number of clusters: 35
+Model: dbscan_35
+ - Params: 600, 100
+ - Average distance to medoid: 727.420394663427
+ - Max distance to medoid: 3373.425625843854
+ - Number of clusters: 34
+Model: dbscan_35
+ - Params: 700, 10
+ - Average distance to medoid: 823.5753387160324
+ - Max distance to medoid: 6256.197775877933
+ - Number of clusters: 220
+Model: dbscan_35
+ - Params: 700, 20
+ - Average distance to medoid: 843.1528653000122
+ - Max distance to medoid: 6256.197775877933
+ - Number of clusters: 136
+Model: dbscan_35
+ - Params: 700, 30
+ - Average distance to medoid: 821.3546647055755
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 103
+Model: dbscan_35
+ - Params: 700, 40
+ - Average distance to medoid: 824.8752753612029
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 84
+Model: dbscan_35
+ - Params: 700, 50
+ - Average distance to medoid: 819.7632435748515
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 70
+Model: dbscan_35
+ - Params: 700, 60
+ - Average distance to medoid: 800.5468123385667
+ - Max distance to medoid: 4892.852082385079
+ - Number of clusters: 56
+Model: dbscan_35
+ - Params: 700, 70
+ - Average distance to medoid: 808.344808552688
+ - Max distance to medoid: 4662.617355155793
+ - Number of clusters: 46
+Model: dbscan_35
+ - Params: 700, 80
+ - Average distance to medoid: 806.5581768944717
+ - Max distance to medoid: 4614.108840350431
+ - Number of clusters: 39
+Model: dbscan_35
+ - Params: 700, 90
+ - Average distance to medoid: 805.464538510237
+ - Max distance to medoid: 4614.108840350431
+ - Number of clusters: 35
+Model: dbscan_35
+ - Params: 700, 100
+ - Average distance to medoid: 777.6240185921862
+ - Max distance to medoid: 4338.202459602364
+ - Number of clusters: 34
+Model: dbscan_35
+ - Params: 800, 10
+ - Average distance to medoid: 1199.3938312519779
+ - Max distance to medoid: 6703.195626878272
+ - Number of clusters: 152
+Model: dbscan_35
+ - Params: 800, 20
+ - Average distance to medoid: 1210.1328368222746
+ - Max distance to medoid: 6703.195626878272
+ - Number of clusters: 97
+Model: dbscan_35
+ - Params: 800, 30
+ - Average distance to medoid: 1044.1789990168668
+ - Max distance to medoid: 5632.051765085261
+ - Number of clusters: 74
+Model: dbscan_35
+ - Params: 800, 40
+ - Average distance to medoid: 1023.0428817470621
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 64
+Model: dbscan_35
+ - Params: 800, 50
+ - Average distance to medoid: 1013.9393961940996
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 56
+Model: dbscan_35
+ - Params: 800, 60
+ - Average distance to medoid: 1003.5019094997962
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 51
+Model: dbscan_35
+ - Params: 800, 70
+ - Average distance to medoid: 1015.8979812314311
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 35
+Model: dbscan_35
+ - Params: 800, 80
+ - Average distance to medoid: 1016.0590272767099
+ - Max distance to medoid: 4892.852082385079
+ - Number of clusters: 31
+Model: dbscan_35
+ - Params: 800, 90
+ - Average distance to medoid: 1014.2521760105063
+ - Max distance to medoid: 4761.60853851931
+ - Number of clusters: 28
+Model: dbscan_35
+ - Params: 800, 100
+ - Average distance to medoid: 986.1254421098299
+ - Max distance to medoid: 4662.617355155793
+ - Number of clusters: 29
+Model: dbscan_35
+ - Params: 900, 10
+ - Average distance to medoid: 1339.4473972188912
+ - Max distance to medoid: 8780.376796641474
+ - Number of clusters: 132
+Model: dbscan_35
+ - Params: 900, 20
+ - Average distance to medoid: 1296.8529800228978
+ - Max distance to medoid: 7782.67335769657
+ - Number of clusters: 85
+Model: dbscan_35
+ - Params: 900, 30
+ - Average distance to medoid: 1135.4141864069043
+ - Max distance to medoid: 6224.949903742198
+ - Number of clusters: 68
+Model: dbscan_35
+ - Params: 900, 40
+ - Average distance to medoid: 1137.5789866623875
+ - Max distance to medoid: 6224.949903742198
+ - Number of clusters: 54
+Model: dbscan_35
+ - Params: 900, 50
+ - Average distance to medoid: 1102.0856257226365
+ - Max distance to medoid: 6224.949903742198
+ - Number of clusters: 53
+Model: dbscan_35
+ - Params: 900, 60
+ - Average distance to medoid: 1059.5419685581833
+ - Max distance to medoid: 5772.347962363322
+ - Number of clusters: 46
+Model: dbscan_35
+ - Params: 900, 70
+ - Average distance to medoid: 1045.275394842654
+ - Max distance to medoid: 5632.051765085261
+ - Number of clusters: 40
+Model: dbscan_35
+ - Params: 900, 80
+ - Average distance to medoid: 1033.3519111129847
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 32
+Model: dbscan_35
+ - Params: 900, 90
+ - Average distance to medoid: 1033.9488819106816
+ - Max distance to medoid: 5327.695095057524
+ - Number of clusters: 30
+Model: dbscan_35
+ - Params: 900, 100
+ - Average distance to medoid: 1019.2055438681447
+ - Max distance to medoid: 5025.932952706393
+ - Number of clusters: 28
+Model: dbscan_35
+ - Params: 1000, 10
+ - Average distance to medoid: 1916.7985516932847
+ - Max distance to medoid: 6563.749668695478
+ - Number of clusters: 110
+Model: dbscan_35
+ - Params: 1000, 20
+ - Average distance to medoid: 1874.0863460500118
+ - Max distance to medoid: 6430.072639309761
+ - Number of clusters: 69
+Model: dbscan_35
+ - Params: 1000, 30
+ - Average distance to medoid: 1732.56470716723
+ - Max distance to medoid: 7040.698755450343
+ - Number of clusters: 56
+Model: dbscan_35
+ - Params: 1000, 40
+ - Average distance to medoid: 1722.0127602940906
+ - Max distance to medoid: 6270.095932519693
+ - Number of clusters: 48
+Model: dbscan_35
+ - Params: 1000, 50
+ - Average distance to medoid: 1705.2708464424618
+ - Max distance to medoid: 6236.1789645984345
+ - Number of clusters: 47
+Model: dbscan_35
+ - Params: 1000, 60
+ - Average distance to medoid: 1636.7777944011248
+ - Max distance to medoid: 6995.23641516854
+ - Number of clusters: 44
+Model: dbscan_35
+ - Params: 1000, 70
+ - Average distance to medoid: 1397.391383400659
+ - Max distance to medoid: 5804.309120825665
+ - Number of clusters: 42
+Model: dbscan_35
+ - Params: 1000, 80
+ - Average distance to medoid: 1083.3250830769803
+ - Max distance to medoid: 5632.051765085261
+ - Number of clusters: 35
+Model: dbscan_35
+ - Params: 1000, 90
+ - Average distance to medoid: 1082.1608067091054
+ - Max distance to medoid: 5632.051765085261
+ - Number of clusters: 29
+Model: dbscan_35
+ - Params: 1000, 100
+ - Average distance to medoid: 1080.3769349551567
+ - Max distance to medoid: 5060.632522689234
+ - Number of clusters: 26
