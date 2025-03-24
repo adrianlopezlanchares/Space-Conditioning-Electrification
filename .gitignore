@@ -1,4 +1,5 @@
 /data/
 /heatpumps/
+/.env/
 
 .DS_Store
