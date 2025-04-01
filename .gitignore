@@ -2,8 +2,7 @@
 /heatpumps/
 /.env/
 
-__pycache__/
-
 consumption/data_transforms/__pycache__
+consumption/dnn/__pycache__
 
 .DS_Store
