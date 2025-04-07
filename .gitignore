@@ -6,3 +6,5 @@ consumption/data_transforms/__pycache__
 consumption/dnn/__pycache__
 
 .DS_Store
+consumption/dnn/__pycache__/dataset.cpython-310.pyc
+consumption/dnn/__pycache__/models.cpython-310.pyc
