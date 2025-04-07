@@ -176,13 +176,16 @@ def generate_full_setpoint_timeseries(
 
 
 def generate_setpoint_timeseries(
-    cooling_start_date: str = "2018-06-01", cooling_end_date: str = "2018-10-31"
+    cooling_start_date: str = "2018-06-01",
+    cooling_end_date: str = "2018-10-31",
+    combine: bool = True,
 ) -> Dict[int, pd.DataFrame]:
     """Main function to generate setpoint timeseries for heating and cooling for each building
 
     Args:
         cooling_start_date (str): Start date for cooling setpoint timeseries
         cooling_end_date (str): End date for cooling setpoint timeseries
+        combine (bool): Whether to combine heating and cooling setpoint timeseries
 
     Returns:
         Dict[int, pd.DataFrame]: Dictionary of DataFrames, where each key is the building ID
@@ -203,28 +206,31 @@ def generate_setpoint_timeseries(
 
     full_timeseries_dict = {}
 
-    print("Combining heating and cooling timeseries...")
-    # Combine heating and cooling timeseries into a single dictionary
-    for j, building_id in enumerate(heating_timeseries_dict):
-        heating_timeseries = heating_timeseries_dict[building_id]
-        cooling_timeseries = cooling_timeseries_dict[building_id]
+    if combine:
+        print("Combining heating and cooling timeseries...")
+        # Combine heating and cooling timeseries into a single dictionary
+        for j, building_id in enumerate(heating_timeseries_dict):
+            heating_timeseries = heating_timeseries_dict[building_id]
+            cooling_timeseries = cooling_timeseries_dict[building_id]
 
-        full_timeseries = heating_timeseries.copy()
+            full_timeseries = heating_timeseries.copy()
 
-        print(
-            f"Combining setpoint timeseries for building {j}/{len(heating_timeseries_dict)}...          ",
-            end="\r",
-        )
+            print(
+                f"Combining setpoint timeseries for building {j}/{len(heating_timeseries_dict)}...          ",
+                end="\r",
+            )
 
-        for i in range(len(full_timeseries)):
-            if (
-                full_timeseries.index[i] >= cooling_start_date
-                and full_timeseries.index[i] <= cooling_end_date
-            ):
-                full_timeseries.iloc[i]["setpoint"] = cooling_timeseries.iloc[i][
-                    "setpoint"
-                ]
+            for i in range(len(full_timeseries)):
+                if (
+                    full_timeseries.index[i] >= cooling_start_date
+                    and full_timeseries.index[i] <= cooling_end_date
+                ):
+                    full_timeseries.iloc[i]["setpoint"] = cooling_timeseries.iloc[i][
+                        "setpoint"
+                    ]
 
-        full_timeseries_dict[building_id] = full_timeseries
+            full_timeseries_dict[building_id] = full_timeseries
 
-    return full_timeseries_dict
+        return full_timeseries_dict
+    else:
+        return heating_timeseries_dict, cooling_timeseries_dict
