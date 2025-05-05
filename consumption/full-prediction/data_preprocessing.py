@@ -5,6 +5,9 @@ import re
 def process_resstock_data(df: pd.DataFrame) -> pd.DataFrame:
     """
     Process the ResStock dataset by applying various transformations to specific columns.
+    Each processed column is suffixed with '_processed'.
+    Columns called "heating_targets" and "cooling_targets" are added to the DataFrame,
+    which are a copy of "in.heating_setpoint" and "in.cooling_setpoint" respectively.
 
     Args:
         df (pd.DataFrame): The ResStock dataset.
@@ -36,6 +39,8 @@ def process_resstock_data(df: pd.DataFrame) -> pd.DataFrame:
     df = _process_roof_material(df)
     df = _process_sqft(df)
     df = _process_windows(df)
+    df = _process_heating_targets(df)
+    df = _process_cooling_targets(df)
 
     return df
 
@@ -812,5 +817,47 @@ def _process_windows(df: pd.DataFrame) -> pd.DataFrame:
             return 3
 
     df["in.windows_processed"] = df["in.windows"].apply(extract_windows)
+
+    return df
+
+
+def _process_heating_targets(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Process the 'in.heating_setpoint' column in the ResStock dataset.
+    Turns it into 'in.heating_setpoint_processed' column with numeric values.
+
+    Args:
+        df (pd.DataFrame): The ResStock dataset.
+
+    Returns:
+        pd.DataFrame: The DataFrame with the processed 'in.heating_setpoint_processed' column.
+    """
+
+    def extract_heating_targets(text):
+        text = text[:-1]
+        return int(text)
+
+    df["heating_targets"] = df["in.heating_setpoint"].apply(extract_heating_targets)
+
+    return df
+
+
+def _process_cooling_targets(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Process the 'in.cooling_setpoint' column in the ResStock dataset.
+    Turns it into 'in.cooling_setpoint_processed' column with numeric values.
+
+    Args:
+        df (pd.DataFrame): The ResStock dataset.
+
+    Returns:
+        pd.DataFrame: The DataFrame with the processed 'in.cooling_setpoint_processed' column.
+    """
+
+    def extract_cooling_targets(text):
+        text = text[:-1]
+        return int(text)
+
+    df["cooling_targets"] = df["in.cooling_setpoint"].apply(extract_cooling_targets)
 
     return df
