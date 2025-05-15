@@ -577,11 +577,11 @@ def _process_foundation_wall_insulation(df: pd.DataFrame) -> pd.DataFrame:
             return 1
 
         split_text = text.split(",")
-        if split_text[0] == "R-5":
+        if split_text[0] == "Wall R-5":
             return 2
-        if split_text[0] == "R-10":
+        if split_text[0] == "Wall R-10":
             return 3
-        if split_text[0] == "R-15":
+        if split_text[0] == "Wall R-15":
             return 4
 
     df["in.insulation_foundation_wall_processed"] = df[
@@ -608,19 +608,19 @@ def _process_roof_insulation(df: pd.DataFrame) -> pd.DataFrame:
 
         if split_text[0] == "Unfinished":
             return 0
-        if split_text[1] == "Uninsulated":
+        if split_text[1] == " Uninsulated":
             return 1
-        if split_text[1] == "R-7":
+        if split_text[1] == " R-7":
             return 2
-        if split_text[1] == "R-13":
+        if split_text[1] == " R-13":
             return 3
-        if split_text[1] == "R-19":
+        if split_text[1] == " R-19":
             return 4
-        if split_text[1] == "R-30":
+        if split_text[1] == " R-30":
             return 5
-        if split_text[1] == "R-38":
+        if split_text[1] == " R-38":
             return 6
-        if split_text[1] == "R-49":
+        if split_text[1] == " R-49":
             return 7
 
     df["in.insulation_roof_processed"] = df["in.insulation_roof"].apply(
