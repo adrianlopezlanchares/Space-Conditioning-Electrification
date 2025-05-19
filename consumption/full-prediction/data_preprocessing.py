@@ -15,20 +15,14 @@ def process_resstock_data(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: The processed DataFrame.
     """
-    df = _process_area_median_income(df)
     df = _process_bedrooms(df)
     df = _process_duct_leakage_and_insulation(df)
     df = _process_duct_location(df)
-    df = _process_federal_poverty_level(df)
     df = _process_geometry_floor_area(df)
     df = _process_stories(df)
     df = _process_wall_type(df)
     df = _process_ground_thermal_conductivity(df)
-    df = _process_heating_fuel(df)
-    df = _process_cooling_efficiency(df)
     df = _process_has_ducts(df)
-    df = _process_heating_efficiency(df)
-    df = _process_income(df)
     df = _process_ceiling_insulation(df)
     df = _process_floor_insulation(df)
     df = _process_foundation_wall_insulation(df)
@@ -39,39 +33,10 @@ def process_resstock_data(df: pd.DataFrame) -> pd.DataFrame:
     df = _process_roof_material(df)
     df = _process_sqft(df)
     df = _process_windows(df)
+    df = _process_window_areas(df)
+    df = _process_vintage(df)
     df = _process_heating_targets(df)
     df = _process_cooling_targets(df)
-
-    return df
-
-
-def _process_area_median_income(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Process the 'in.area_median_income' column in the ResStock dataset.
-    Turns it into 'in.area_median_income_processed' column with numeric values."
-
-    Args:
-        df (pd.DataFrame): The ResStock dataset.
-
-    Returns:
-        pd.DataFrame: The DataFrame with the processed 'in.area_median_income_processed' column.
-    """
-    pattern = r"(\d+)-(\d+)%"
-
-    def extract_percentage_range(text):
-        if text == "150%+":
-            return 150
-        if text == "Not Available":
-            return 0
-
-        match = re.findall(pattern, text)
-        if match:
-            return int(int(match[0][0]) + int(match[0][1]) // 2)
-        return 0
-
-    df["in.area_median_income_processed"] = df["in.area_median_income"].apply(
-        extract_percentage_range
-    )
 
     return df
 
@@ -180,37 +145,6 @@ def _process_duct_location(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def _process_federal_poverty_level(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Process the 'in.federal_poverty_level' column in the ResStock dataset.
-    Turns it into 'in.federal_poverty_level_processed' column with numeric values.
-
-    Args:
-        df (pd.DataFrame): The ResStock dataset.
-
-    Returns:
-        pd.DataFrame: The DataFrame with the processed 'in.federal_poverty_level_processed' column.
-    """
-    pattern = r"(\d+)-(\d+)%"
-
-    def extract_percentage_range(text):
-        if text == "400%+":
-            return 400
-        if text == "Not Available":
-            return 0
-
-        match = re.findall(pattern, text)
-        if match:
-            return int(int(match[0][0]) + int(match[0][1]) // 2)
-        return 0
-
-    df["in.federal_poverty_level_processed"] = df["in.federal_poverty_level"].apply(
-        extract_percentage_range
-    )
-
-    return df
-
-
 def _process_geometry_floor_area(df: pd.DataFrame) -> pd.DataFrame:
     """
     Process the 'in.geometry_floor_area' column in the ResStock dataset.
@@ -314,78 +248,6 @@ def _process_ground_thermal_conductivity(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def _process_heating_fuel(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Process the 'in.heating_fuel' column in the ResStock dataset.
-    Turns it into 'in.heating_fuel_processed' column with numeric values.
-
-    Args:
-        df (pd.DataFrame): The ResStock dataset.
-
-    Returns:
-        pd.DataFrame: The DataFrame with the processed 'in.heating_fuel_processed' column.
-    """
-
-    def extract_heating_fuel(text):
-        if text == "None":
-            return 0
-        if text == "Electricity":
-            return 1
-        if text == "Natural Gas":
-            return 2
-        if text == "Propane":
-            return 3
-        if text == "Fuel Oil":
-            return 4
-        if text == "Other Fuel":
-            return 5
-
-    df["in.heating_fuel_processed"] = df["in.heating_fuel"].apply(extract_heating_fuel)
-
-    return df
-
-
-def _process_cooling_efficiency(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Process the 'in.cooling_efficiency' column in the ResStock dataset.
-    Turns it into 'in.cooling_efficiency_processed' column with numeric values.
-
-    Args:
-        df (pd.DataFrame): The ResStock dataset.
-
-    Returns:
-        pd.DataFrame: The DataFrame with the processed 'in.cooling_efficiency_processed' column.
-    """
-
-    def extract_cooling_efficiency(text):
-        pattern = r"(\d+(?:\.\d+)?)"
-
-        split_text = text.split(",")
-
-        if len(split_text) == 1:
-            if split_text[0] == "None":
-                return 0
-            if split_text[0] == "Shared Cooling":
-                return 1
-            if split_text[0] == "Ducted Heat Pump":
-                return 2
-            if split_text[0] == "Non-Ducted Heat Pump":
-                return 3
-
-        else:
-            match = re.findall(pattern, split_text[1])
-            if match:
-                return float(match[0])
-            return 0
-        return 0
-
-    df["in.hvac_cooling_efficiency_processed"] = df["in.hvac_cooling_efficiency"].apply(
-        extract_cooling_efficiency
-    )
-
-    return df
-
-
 def _process_has_ducts(df: pd.DataFrame) -> pd.DataFrame:
     """
     Process the 'in.hvac_has_ducts' column in the ResStock dataset.
@@ -405,87 +267,6 @@ def _process_has_ducts(df: pd.DataFrame) -> pd.DataFrame:
             return 0
 
     df["in.hvac_has_ducts_processed"] = df["in.hvac_has_ducts"].apply(extract_has_ducts)
-
-    return df
-
-
-def _process_heating_efficiency(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Process the 'in.hvac_heating_efficiency' column in the ResStock dataset.
-    Turns it into 'in.hvac_heating_efficiency_processed' column with numeric values.
-
-    Args:
-        df (pd.DataFrame): The ResStock dataset.
-
-    Returns:
-        pd.DataFrame: The DataFrame with the processed 'in.heating_efficiency_processed' column.
-    """
-
-    def extract_heating_efficiency(text):
-
-        split_text = text.split(",")
-
-        if len(split_text) == 1:
-            if split_text[0] == "None":
-                return 0
-            if split_text[0] == "Shared Heating":
-                return 1
-
-        else:
-            if split_text[0] == "Fuel Furnace":
-                return 2
-            if split_text[0] == "Fuel Boiler":
-                return 3
-            if split_text[0] == "Fuel Wall/Floor Furnace":
-                return 4
-            if split_text[0] == "Electric Baseboard":
-                return 5
-            if split_text[0] == "Electric Furnace":
-                return 6
-            if split_text[0] == "Electric Wall Furnace":
-                return 7
-            if split_text[0] == "Electric Boiler":
-                return 8
-            if split_text[0] == "ASHP":
-                return 9
-            if split_text[0] == "MSHP":
-                return 10
-        return 0
-
-    df["in.hvac_heating_efficiency_processed"] = df["in.hvac_heating_efficiency"].apply(
-        extract_heating_efficiency
-    )
-
-    return df
-
-
-def _process_income(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Process the 'in.income' column in the ResStock dataset.
-    Turns it into 'in.income_processed' column with numeric values.
-
-    Args:
-        df (pd.DataFrame): The ResStock dataset.
-
-    Returns:
-        pd.DataFrame: The DataFrame with the processed 'in.income_processed' column.
-    """
-    pattern = r"(\d+)-(\d+)"
-
-    def extract_income(text):
-        if text == "200000+":
-            return 200
-        if text == "<10000":
-            return 10
-        if text == "Not Available":
-            return 0
-
-        match = re.findall(pattern, text)
-        if match:
-            return int(int(match[0][0]) + int(match[0][1]) // 2)
-        return 0
-
-    df["in.income_processed"] = df["in.income"].apply(extract_income)
 
     return df
 
@@ -817,6 +598,55 @@ def _process_windows(df: pd.DataFrame) -> pd.DataFrame:
             return 3
 
     df["in.windows_processed"] = df["in.windows"].apply(extract_windows)
+
+    return df
+
+
+def _process_window_areas(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Process the 'in.window_areas' column in the ResStock dataset.
+    Turns it into 'in.window_areas_processed' column with numeric values.
+
+    Args:
+        df (pd.DataFrame): The ResStock dataset.
+
+    Returns:
+        pd.DataFrame: The DataFrame with the processed 'in.window_areas_processed' column.
+    """
+
+    def extract_window_areas(text):
+        # Extract only the first number that appears after the first F
+        match = re.search(r"F(\d+)", text)
+        if match:
+            return int(match.group(1))
+        return 0
+
+    df["in.window_areas_processed"] = df["in.window_areas"].apply(extract_window_areas)
+
+    return df
+
+
+def _process_vintage(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Process the 'in.vintage' column in the ResStock dataset.
+    Turns it into 'in.vintage_processed' column with numeric values.
+
+    Args:
+        df (pd.DataFrame): The ResStock dataset.
+
+    Returns:
+        pd.DataFrame: The DataFrame with the processed 'in.vintage_processed' column.
+    """
+
+    def extract_vintage(text):
+        if text == "<1940":
+            return 1930
+
+        text = text[:-1]
+
+        return int(text)
+
+    df["in.vintage_processed"] = df["in.vintage"].apply(extract_vintage)
 
     return df
 
