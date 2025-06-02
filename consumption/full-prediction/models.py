@@ -20,7 +20,7 @@ class MLPModel(nn.Module):
 class LinearRegressionModel(nn.Module):
     def __init__(self, input_size, output_size):
         super(LinearRegressionModel, self).__init__()
-        self.linear = nn.Linear(input_size, output_size)
+        self.linear = nn.Linear(input_size, output_size, bias=True)
 
     def forward(self, x):
         out = self.linear(x)
