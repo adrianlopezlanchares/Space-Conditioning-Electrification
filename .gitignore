@@ -1,5 +1,6 @@
 /data/
 /heatpumps/
+**/models/
 /.env/
 **/__pycache__/
 
